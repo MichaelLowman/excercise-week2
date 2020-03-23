@@ -1,0 +1,59 @@
+<---- soal no 1 ---->
+
+STORE "m" with 600
+STORE "a" with 2
+STORE "f" without any value
+
+CALCULATE "m" times "a"
+SET "f" value with calculation result
+
+DISPLAY "f"
+
+
+<---- soal no 2 ----->
+
+STORE "tahun" with any value
+
+
+IF "tahun"%4 equal 0 && "tahun"%100 not equal 0
+   DISPLAY "tahun" +  merupakan tahun kabisat
+
+elseIF "tahun"%4 equal 0 && tahun%100 equal 0 || tahun%400 equal 0
+   DISPLAY "tahun" + merupakan tahun kabisat
+
+else
+   DISPLAY "tahun" + bukan tahun kabisat
+
+
+<----- soal no 3 ------>
+
+STORE "pakaian" with value max 20
+
+IF "pakaian" equal 20   
+   DISPLAY "Baju Foxie lengkap"
+   DO start wash "pakaian"
+
+else
+   DISPLAY "Baju Foxie Kurang"
+   DO calculate again
+
+
+<----- soal no 4 ----->
+   STORE "urutanmurid" to 1
+
+   WHILE "urutanmurid" less than or equal 40
+        STORE "nama_murid" to any value
+        STORE "kuku_murid" to any value
+
+            IF  kuku equal Pendek
+                DO "reward"
+                    DISPLAY "nama murid" + "kamu bersih"   
+            else 
+                Do "hukum" 
+                    DISPLAY "nama murid" + "kamu di hukum karena jorok"
+
+    add one to "urutanmurid"
+
+
+   
+
