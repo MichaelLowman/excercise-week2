@@ -3,6 +3,7 @@ var tahun  = 2012; //isi dari 1900 - 2200
 var bulan = 3; // isi 1 - 12
 
 switch (bulan) {
+    
     case 1: 
        console.log(`${tanggal} Januari ${tahun}`); 
         

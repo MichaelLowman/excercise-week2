@@ -1,18 +1,18 @@
 function xo(str) {
   // you can only write your code here!
      
-     var hallo = str.split('',str.length);
+     
      var jumlahx = 0;
      var jumlaho = 0;
 
     for (var i=0; i<=str.length; i++){
 
       
-        if(hallo[i] == 'x'){
+        if(str[i] == 'x'){
 
           jumlahx++
 
-        }else if(hallo[i] == 'o'){
+        }else if(str[i] == 'o'){
 
           jumlaho++
 
